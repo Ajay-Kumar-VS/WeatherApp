@@ -1,0 +1,15 @@
+
+/* CSS file of SearchBox component */
+.SearchBox{
+    @apply w-screen h-[10vh]	 flex flex-row items-center justify-center 
+
+    
+}
+#inputBox{
+    @apply w-[450px] h-[30px] mr-4 ml-16 border-violet-200 border-2 rounded-md  text-center
+}
+#cheackWeatherbutton{
+@apply h-[2.5rem] w-[5rem] bg-violet-200  rounded-lg	shadow-md shadow-orange-300
+
+}
+

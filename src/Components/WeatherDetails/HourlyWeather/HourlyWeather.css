@@ -1,0 +1,9 @@
+.hourlyForcast {
+  @apply h-[37%] w-[100] flex  bg-inherit;
+}
+.HourForcast {
+  @apply font-bold text-lg bg-inherit;
+}
+.containerOfHourForcast {
+  @apply flex align-middle justify-center bg-inherit;
+}

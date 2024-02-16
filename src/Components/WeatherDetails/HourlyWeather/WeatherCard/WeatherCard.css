@@ -1,0 +1,39 @@
+.weatherCardMain {
+  background-color: aliceblue;
+  box-shadow: 2px 2px 5px 5px black;
+  border-radius: 5px;
+  @apply h-[100%] w-[16.6%] flex flex-col ml-[0.5px] mt-5 mr-2 ml-2 justify-center outline outline-black;
+}
+.timeFrame {
+  @apply flex align-middle bg-inherit justify-center;
+}
+#time {
+  @apply bg-inherit font-medium;
+}
+.tempFrameInWeatherCard {
+  @apply flex flex-row bg-inherit justify-center;
+}
+.weatherAndTemp {
+  @apply flex flex-col bg-inherit  ml-3;
+}
+#tempInWeatherCard {
+  @apply font-bold text-2xl bg-inherit;
+}
+#CInWeatherCard {
+  @apply font-light text-xl mt-1 bg-inherit;
+}
+#degreeSymolInWeatherCard {
+  @apply text-sm bg-inherit;
+}
+#weatherInWeatherCard {
+  @apply font-bold text-xl bg-inherit;
+}
+.UVandWind {
+  @apply flex flex-col font-semibold bg-inherit ml-3;
+}
+#Uv {
+  @apply bg-inherit;
+}
+#wind {
+  @apply bg-inherit;
+}

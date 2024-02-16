@@ -1,0 +1,15 @@
+/* Css file for ForcastCard */
+
+.forcastmain {
+  box-shadow: 2px 2px 5px 5px black;
+  border-radius: 5px;
+  border-color: aliceblue;
+  background-color: aliceblue;
+  @apply h-[100%] w-[20%] flex flex-col outline justify-center align-middle mr-5 ml-5 mt-[-20px];
+}
+#day {
+  @apply bg-inherit font-bold flex justify-center;
+}
+.ForcastCardMain {
+  @apply bg-inherit;
+}

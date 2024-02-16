@@ -1,0 +1,33 @@
+.main {
+  @apply flex flex-col w-[100%] h-[25%] bg-inherit;
+}
+.tempFrame {
+  @apply flex flex-row bg-inherit flex;
+}
+#temp {
+  @apply text-6xl font-medium bg-inherit;
+}
+#degree {
+  @apply font-bold bg-inherit;
+}
+#weather {
+  @apply text-3xl font-medium mr-6 bg-inherit;
+}
+#C {
+  @apply text-6xl font-normal text-3xl mt-1 bg-inherit;
+}
+#degreeSymbol {
+  @apply bg-inherit;
+}
+#city {
+  @apply text-3xl font-medium  bg-inherit;
+}
+.cityAndCountry {
+  @apply bg-inherit flex flex-row;
+}
+#country {
+  @apply text-3xl font-medium mr-6 bg-inherit;
+}
+#comma {
+  @apply text-3xl font-medium bg-inherit;
+}

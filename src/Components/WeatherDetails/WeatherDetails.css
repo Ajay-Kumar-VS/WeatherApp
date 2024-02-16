@@ -1,0 +1,6 @@
+.main {
+  @apply flex items-center justify-center w-[100vw] h-[90vh];
+}
+.card {
+  @apply w-[95vw]  bg-indigo-100 rounded-lg shadow-lg shadow-orange-700 mb-2 pb-[50px];
+}

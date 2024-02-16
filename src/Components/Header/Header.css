@@ -1,0 +1,8 @@
+
+/* CSS file for Header.jsx */
+.header{
+    @apply w-screen h-[5vh]	 flex flex-row items-center justify-center
+}
+.heading{
+    @apply text-3xl  font-semibold 
+}
